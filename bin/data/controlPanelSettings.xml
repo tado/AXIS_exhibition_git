@@ -8,22 +8,22 @@
     <val_0>13.777775</val_0>
 </angle>
 <point_size>
-    <val_0>16.816666</val_0>
+    <val_0>21.800001</val_0>
 </point_size>
 <step>
-    <val_0>4.550000</val_0>
+    <val_0>3.600000</val_0>
 </step>
 <posz>
-    <val_0>-666.666626</val_0>
+    <val_0>-755.555542</val_0>
 </posz>
 <thresh>
     <val_0>1666.666626</val_0>
 </thresh>
 <rec_size>
-    <val_0>8.811111</val_0>
+    <val_0>5.855556</val_0>
 </rec_size>
 <rec_step>
-    <val_0>6.488889</val_0>
+    <val_0>12.611111</val_0>
 </rec_step>
 <cloud_rand>
     <val_0>0.433333</val_0>
@@ -46,3 +46,6 @@
 <color_b>
     <val_0>0.911111</val_0>
 </color_b>
+<point_smooth>
+    <val_0>0.000000</val_0>
+</point_smooth>

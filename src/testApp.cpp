@@ -54,7 +54,8 @@ void testApp::update(){
 		}
 		
 		//FaceExchange 顔交換
-		if (m.getAddress() == "/face/number") {
+		if (m.getAddress() == "/face/number" && m.getArgAsInt32(0) < 15) {
+			
 			faceExchange->num_displayFace = m.getArgAsInt32(0); 
 			faceExchange->imgTracker.reset();
 

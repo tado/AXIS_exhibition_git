@@ -58,9 +58,10 @@ void KinectCloud::show() {
 	rotate.y = 0;
 	scale = 2.5;
 	
+	//fbo.allocate(ofGetWidth(), ofGetHeight());
 	glow.allocate(ofGetWidth(), ofGetHeight());
 	glow.setPasses(3);
-	glow.setRadius(200);
+	glow.setRadius(140);
 	
 	//blur.allocate(ofGetWidth(), ofGetHeight());
 	//blur.setPasses(6);
@@ -176,10 +177,7 @@ void KinectCloud::drawPointCloud() {
 	// メッシュの頂点を描画
 	ofPushMatrix();
 	ofScale(scale, -scale, -scale);
-	
-	// ofRotateX(gui.getValueI("rotx"));
-	// ofRotateY(gui.getValueI("roty"));
-	
+		
 	ofRotateX(rotate.x);
 	ofRotateY(-rotate.y);
 	ofRotateZ(180);
